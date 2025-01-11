@@ -303,10 +303,12 @@
 
 .wpo-video-section{
 	position: relative;
-	z-index: 1;
-	background: url(../images/cta.jpg) no-repeat center center;
-	height: 400px;
-	background-attachment: fixed;
+    z-index: 1;
+    background: url(../images/ng/IMG_0528.JPG) no-repeat center center;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center 24%;
 
 	&:before{
 		position: absolute;
@@ -599,7 +601,9 @@
 		width: 100%;
 		height: 500px;
 		content: "";
-		background: url(../images/event/bg.jpg) no-repeat center center;
+		background: url(../images/ng/IMG_0545.JPG) no-repeat center center;
+		background-position-y: 75%;
+		background-size: 100%;
 		z-index: -1;
 	}
 	&:after{

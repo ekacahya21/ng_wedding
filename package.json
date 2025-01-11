@@ -1,0 +1,17 @@
+{
+  "name": "ng_wedding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "sass --style compressed --source-map ./assets/sass/style.scss ./assets/sass/style.css",
+    "watch:css": "sass --style compressed --watch ./assets/sass/style.scss ./assets/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.83.1"
+  }
+}

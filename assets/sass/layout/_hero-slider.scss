@@ -367,7 +367,7 @@
 	hero style 1
 --------------------------------------------*/
 .static-hero {
-	background: $white;
+	background: $bg-color-secondary;
 	height: 1260px;
 	display: flex;
 	position: relative;
@@ -394,7 +394,7 @@
 
 	.wpo-static-hero-inner{
 		padding-bottom: 0px;
-		padding-left: 240px;
+		padding-left: 150px;
 
 		@media(max-width:1800px){
 			padding-left: 140px;
@@ -580,7 +580,7 @@
 	.static-hero-right{
 		position: absolute;
 		top: 48%;
-		right: 200px;
+		right: 180px;
 		z-index: 1;
 		transform: translateY(-50%);
 
@@ -609,7 +609,7 @@
 			z-index: 1;
 			padding: 30px;
 			box-shadow: 0px 0px 6.1px 3.9px rgba(28, 31, 86, 0.06);
-			background: $white;
+			background: $border-color;
 			border-radius: 320px;
 			z-index: 1;
 			max-width: 640px;
